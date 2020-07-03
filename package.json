@@ -1,0 +1,24 @@
+{
+  "name": "clarity-music",
+  "version": "0.4.1",
+  "description": "Discord music bot built with discord.js",
+  "main": "index.js",
+  "author": "Blackfort",
+  "private": true,
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.0.1",
+    "simple-youtube-api": "^5.1.1",
+    "ytdl-core": "^3.1.0",
+    "ytdl-core-discord": "amishshah/ytdl-core-discord"
+  },
+  "engines": {
+    "node": "12.18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "optionalDependencies": {
+    "ffmpeg-static": "^4.2.3"
+  }
+}
